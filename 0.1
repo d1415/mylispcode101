@@ -1,0 +1,13 @@
+#lang slideshow
+
+;; Define a with "define"
+(define a 10)
+(define b 20)
+
+;; Add condition a with "cond"
+;; Print with a "print"
+(cond [( = a b) (print "equal" 0)]
+      [( > a b) (print "a bigger")]
+      [(< a b) (print "b bigger")]
+
+      )
